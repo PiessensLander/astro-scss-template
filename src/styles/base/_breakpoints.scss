@@ -56,3 +56,10 @@ $screen-xxl-min: 87.5rem;
 		@content;
 	}
 }
+
+// To use these mixins, you can do something like this:
+// @include lg {
+// 	.container {
+// 		max-width: 100%;
+// 	}
+// }
